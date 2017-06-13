@@ -45,13 +45,18 @@ Relaxr - extra bold, 24px
 header {
 	height: 500px;
 	background-image: url("../images/header_bg.jpg");
-	padding: 30px;
+	background-size: cover;
+	background-color: #050516;
+	
 }
 
 h1 {
 	color: white;
-	font-family: open Sans;
-	font-size: 25px;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px;
+	font-weight: bolder;
+
 }
 
 header p {
@@ -60,22 +65,60 @@ header p {
 	font-size: 24px;
 	font-weight: 700;
 	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
 
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	margin-left: 40px;
+
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+	margin-left: 60px;
+	font-weight: 300;
+	padding-bottom: 30px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 30px;
+	margin-left: 40px;
+	padding-top: 20px;
 }
 
 .first-button {
 	margin-top:  100px;
 	text-align: center;
-	padding: 20px;
+	padding: 30px;
 	text-align: center;
 	margin-top: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+
 }
+
 
 .first-button a {
 	text-decoration: none;
 	padding: 15px;
 	background-color: yellow;
 	border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 20px;
+	background-color: yellow;
 }
 
 .title{font-size: 24px;
@@ -94,7 +137,7 @@ header p {
 
 .benefits h3 {
 	margin-top: 20px;
-	font-weight: 700;
+	font-weight: bolder;
 }
 
 .benefits ul  {
@@ -105,14 +148,24 @@ header p {
 
 .quotes {
    font-size: 20px;
+   font-weight: lighter;
    text-align: center;
-   background-color: black;
+   background-color: #050516;
    color: white;
-   padding: 40px;
+   font-family: 'Open Sans', sans-serif;
+   background-image: url("../images/testimonial_bg.jpg");
+   height: 40%;
+   padding-top: 60px;
+   padding-left: 40px;
+   padding-right: 40px;
+
+
 }
 
 .Amanda {
-	font-weight: 700;
+	padding-top: 40px;
+	font-weight: 300px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .final-link {
@@ -124,14 +177,15 @@ header p {
 
 .final-link a {
 	text-decoration: none;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin: 20px;
-	background-color: blue;
+	background-color: #0a0a2c;
 	color: white;
 	border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
